@@ -1,0 +1,165 @@
+body
+{
+	padding: 0px;
+	margin: 0px;
+}
+.nav-bar
+{
+	margin-top: 25px;
+	letter-spacing: 2px;
+	border-bottom: 1px solid #dee2e6;
+}
+.nav-bar ul
+{
+	list-style-type: none;
+	margin-top: 5px;
+}
+.nav-bar ul li
+{
+	display: inline-block;
+	margin-left: 25px;
+}
+.nav-bar a
+{
+	letter-spacing: 2px;
+	text-decoration: none;
+	color: #333;
+}
+
+.glr
+{
+	padding-top: 15px;
+	padding-bottom: 45px;
+}
+.glr0
+{
+	padding: 15px;
+	text-align: center;
+}
+.glr1
+{
+	background-image: url('images/img_1.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 450px;
+}
+.glr1:hover
+{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgb(0,0,0,0.7)),url("images/img_1.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 450px;
+}
+.glr2
+{
+	background-image: url('images/img_2.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 450px;
+}
+.glr2:hover
+{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgb(0,0,0,0.7)),url("images/img_2.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 450px;
+}
+.glr3
+{
+	background-image: url('images/img_3.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 450px;
+}
+.glr3:hover
+{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgb(0,0,0,0.7)),url("images/img_3.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 450px;
+}
+.glr0 a
+{
+	text-decoration: none;
+	color: #ffffff;
+	border: 2px solid #ffffff;
+	padding: 5px 20px 5px 20px;
+}
+.glr0 a:hover
+{
+	border: none;
+	background-color: #ffffff;
+	color: #333;
+}
+.glr0 h3
+{
+	color: #ffffff;
+	padding-top: 150px;
+}
+
+
+
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column1 {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column1 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.os1
+{
+	margin-top: 45px;
+	text-align: center;
+}
+.os1 h1
+{
+	letter-spacing: 2px;
+}
+
+
+#contact-area {
+	width: 600px;
+	margin-top: 25px;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 471px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #900;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	float: right;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 1.4em;
+}
